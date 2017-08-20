@@ -99,6 +99,7 @@ def main():
         print('Path does not exist:', IMAGE_ROOT)
     if not os.path.exists(LOG_ROOT):
         os.makedirs(LOG_ROOT, exist_ok=True)
+    pyautogui.moveTo(0, 1)
     keys = find_keys(KEY_FILE)
     print(len(keys), 'keys in total.')
     if 'AAAAA-AAAAA-AAAAA' in keys:
