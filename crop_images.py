@@ -3,7 +3,7 @@ import os
 import sys
 from PIL import Image
 
-IMAGE_ROOT = 'images/windows/cn/'
+IMAGE_ROOT = 'images/windows/en/'
 IMAGES = ['empty.png', 'connecting.png', 'invalid.png', 'owned.png', 'success.png', 'too_many_times.png']
 
 STEAM_BOX_SIZE = (476, 400)   # Steam activation dialog size

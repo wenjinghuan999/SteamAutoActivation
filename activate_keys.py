@@ -14,7 +14,7 @@ CONNECTION_INTERVAL = 1
 TYPE_INTERVAL = 0.01
 
 KEY_FILE = 'keys.txt'
-IMAGE_ROOT = 'images/windows/cn/'
+IMAGE_ROOT = 'images/windows/en/'
 LOG_ROOT = 'logs/'
 
 
