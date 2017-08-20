@@ -3,7 +3,7 @@ Activate multiple steam product keys using a python script.
 
 ## Requirements
 - Python 3 (Python 2 not tested)
-- pyautogui (`pip install pyautogui`)
+- pyautogui, chardet (`pip install pyautogui chardet`)
 - Steam client installed
 
 ## Notes
