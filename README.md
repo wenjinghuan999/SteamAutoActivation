@@ -7,13 +7,13 @@ Activate multiple steam product keys using a python script.
 - Steam client installed
 
 ## Notes
-- Only tested under Windows 10, Steam client language: Simplified Chinese
+- Only tested under Windows 10, Steam client language: English, Simplified Chinese
 - Other languages or OS might work. But if you want to see results, corresponding Steam client image should be added in `images` folder. See below for instructions.
 - Pull requests for other languages and OS are welcome!
 
 ## Usage
 1. Copy your keys to `keys.txt`. See `keys.txt` for example.
-2. (If using other system or language, change `IMAGE_ROOT` in `activate_keys.py` for better experience. If not, all the results will be `unknown`. See below for instructions.)
+2. (By default, the script presumes English Steam client and Windows system. If using other system or language, change `IMAGE_ROOT` in `activate_keys.py` for better experience. If not, all the results will be `unknown`. See below for instructions.)
 3. If your taskbar is not on the bottom of screen, or its height is not 40, change `TASK_BAR_SIZE` in `activate_keys.py`.
 4. Make sure Steam client is logged in, and Product Activation dialog is **NOT** opened. Make sure no IME (Input Method Editor) is activated.
 5. `python activate_keys.py`
