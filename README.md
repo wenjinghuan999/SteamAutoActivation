@@ -3,17 +3,17 @@ Activate multiple steam product keys using a python script.
 
 ## Requirements
 - Python 3 (Python 2 not tested)
-- pyautogui (`pip install pyautogui`)
+- pyautogui, chardet (`pip install pyautogui chardet`)
 - Steam client installed
 
 ## Notes
 - Only tested under Windows 10, Steam client language: Simplified Chinese
-- Other languages or OS might work, but corresponding Steam client image should be added in `images` folder. See below for instructions.
+- Other languages or OS might work. But if you want to see results, corresponding Steam client image should be added in `images` folder. See below for instructions.
 - Pull requests for other languages and OS are welcome!
 
 ## Usage
 1. Copy your keys to `keys.txt`. See `keys.txt` for example.
-2. (If using other system or language, change `IMAGE_ROOT` in `activate_keys.py`. See below for instructions.)
+2. (If using other system or language, change `IMAGE_ROOT` in `activate_keys.py` for better experience. If not, all the results will be `unknown`. See below for instructions.)
 3. If your taskbar is not on the bottom of screen, or its height is not 40, change `TASK_BAR_SIZE` in `activate_keys.py`.
 4. Make sure Steam client is logged in, and Product Activation dialog is **NOT** opened. Make sure no IME (Input Method Editor) is activated.
 5. `python activate_keys.py`
@@ -28,7 +28,7 @@ Activate multiple steam product keys using a python script.
   - `invalid.png`: When you use an invalid key like `11111-11111-11111`.
   - `owned.png`: When you use an already owned product key.
   - `success.png`: When you successfully added a product.
-  - `too_many_times.png`: When you activate more than 6 invalid keys (including already activated) in a short time. This will cause your account temporarily unavaliable to activate products in 30~40 minutes.
+  - `too_many_times.png`: When you activate more than 6\~10 invalid keys (including already activated) in a short time. This will cause your account temporarily unavaliable to activate products in 30\~40 minutes.
   You can take screenshots using Alt-PrtScr to get these images. Make sure they have the same resolution (476x400 for windows client). 
 - Crop the images:
   - Copy the 6 images under `images/xxx/xxx` folder
