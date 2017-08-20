@@ -28,7 +28,7 @@ Activate multiple steam product keys using a python script.
   - `invalid.png`: When you use an invalid key like `11111-11111-11111`.
   - `owned.png`: When you use an already owned product key.
   - `success.png`: When you successfully added a product.
-  - `too_many_times.png`: When you activate more than 6 invalid keys (including already activated) in a short time. This will cause your account temporarily unavaliable to activate products in 30~40 minutes.
+  - `too_many_times.png`: When you activate more than 6~10 invalid keys (including already activated) in a short time. This will cause your account temporarily unavaliable to activate products in 30~40 minutes.
   You can take screenshots using Alt-PrtScr to get these images. Make sure they have the same resolution (476x400 for windows client). 
 - Crop the images:
   - Copy the 6 images under `images/xxx/xxx` folder
