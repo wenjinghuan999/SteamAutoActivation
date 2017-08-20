@@ -1,0 +1,42 @@
+Key file example
+
+It is best to make sure each key is in a seperated line, e.g.
+AAAAA-AAAAA-AAAAA
+
+Keys will be detected automatically, e.g.
+This is a key BBBBB-BBBBB-BBBBB
+
+Make sure keys only contain CAPITAL LETTERS, NUMBERS and -.
+This key is invalid ccccc-ccccc-ccccc
+
+Make sure the whole key is in the same line.
+This key is invalid DDDDD-DDDD
+D-DDDDD
+
+Other lines will be ignored.
+
+Usage example:
+Just drag and copy everyting from https://www.humblebundle.com/home/keys, like this:
+
+===================================================
+
+DRM	GAME	KEY
+Shadow Warrior
+Shadow Warrior: Special Edition
+
+EEEEE-EEEEE-EEEEE
+Note: You must redeem your free Shadow Warrior key by 10AM Pacific on Saturday, August 5th, 2017!
+Ame no Marginal -Rain Marginal-
+Humble Sekai Project Bundle
+
+FFFFF-FFFFF-FFFFF
+fault - milestone two side:above
+Humble Sekai Project Bundle
+
+GGGGG-GGGGG-GGGGG
+fault milestone one
+Humble Sekai Project Bundle
+
+===================================================
+
+And the keys will be detected!
